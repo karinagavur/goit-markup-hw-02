@@ -35,10 +35,6 @@
         color: #2e2f42;
   }
 
-   {
-    color: #404bbf;
-  }
-
   .contacts {
     font-style: normal;
   }
@@ -61,30 +57,32 @@
     background-color: #2e2f42;
   }
 
-  .hero1 {
+  .main-hero-one {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
   }
 
-  .button-hero1 {
-    border-radius: 4px;
-      padding: 16px 32px;
-      width: 169px;
-      height: 56px;
+  .button-hero-one {
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
   }
 
-  .button-hero1:hover,
-  .button-hero1:focus {
+  .button-hero-one:hover,
+  .button-hero-one:focus {
     background-color: #404bbf;
   }
 
-  .features-hero3 {
+  .features-hero-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -102,15 +100,16 @@
     background-color: #f4f4fd;
   }
 
-  .team-hero2 {
+  .team-hero-two {
+      text-transform: capitalize;
       font-size: 36px;
-      line-height: 1.11111;
+      line-height: 1.11;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
   }
 
-  .team-hero3 {
+  .team-hero-three {
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
@@ -126,15 +125,20 @@
       text-align: center;
   }
 
-  .portfolio-hero2 {
+  .team-list {
+    background-color: #FFFFFF
+  }
+
+  .portfolio-hero-two {
+     text-transform: capitalize;
       font-size: 36px;
-      line-height: 1.11111;
+      line-height: 1.11;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
   }
 
-.portfolio-hero3 {
+.portfolio-hero-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
